@@ -6,7 +6,7 @@ class Fahter {   //parent class
 	String car="BMW";
 	
 	void read() {
-		System.out.println("reading a news papa")
+		System.out.println("reading a news papa");
 	}
 }
 public class Maindemo {

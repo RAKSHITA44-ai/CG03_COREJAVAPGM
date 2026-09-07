@@ -10,7 +10,7 @@ public class WithException {
 		System.out.println(a/b);
 		}
 		catch (Exception r ) {
-			System.out.println(r.gettingmessage);
+			System.out.println(r.getMessage());
 		System.out.println("Hello World!");
 		}
 	}

@@ -60,12 +60,12 @@ class ProjectManager implements TechnicalRole, ManagementalRole {
 
 public class MultipleInheritance {
 	public static void main(String[] args) {
-		ProjectManager m=new ProjectManager;
+		ProjectManager m=new ProjectManager();
 		ProjectManager("Anil","E-Commerce Platform",8,250000);
-		m.designArchitect();
+		m.DesignArchitect();
 		m.ManageTeam();
 		m.checkBudget();
-		m.displayProductdetails();
+		m.displayProjectDetails();
 	}
 
 }
