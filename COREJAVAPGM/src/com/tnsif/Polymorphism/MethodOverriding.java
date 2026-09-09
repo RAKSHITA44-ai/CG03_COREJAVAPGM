@@ -10,7 +10,7 @@ class BankAccount {
 
 class SavingAccount extends BankAccount {
 	@Override
-	void calculateInterst(double amount) {
+	void calculateInterest(double amount) {
 		double interest=amount*0.04;
 		System.out.println("saving account");
 		System.out.println("Interest:"+amount);

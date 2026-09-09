@@ -2,12 +2,12 @@ package com.tsif.Abstraction;
 
 public class FinalVariable {
 	
-	final int 5;
+	final int n=5;
 	final static String d="Raman";
+	static int a;
 	
 	static {
-		n=1;
-		//d="Raju";
+		a = 1;
 	}
 	
 	final void display() {
