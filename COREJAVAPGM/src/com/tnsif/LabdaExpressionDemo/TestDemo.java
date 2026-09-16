@@ -19,8 +19,8 @@ public class TestDemo {
 			else {
 				return(5*15) = ((d-5) * 12);
 			}
-		};
 		System.out.println("Cab fair: "+fare.calculate(distance));
-	}
+	};
 
+}
 }

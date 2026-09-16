@@ -2,7 +2,7 @@ package com.tnsif.LabdaExpressionDemo;
 
 import java.util.Scanner;
 
-public class LoginMethod {
+public interface Loginvalidation {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter username: ");
@@ -13,8 +13,8 @@ public class LoginMethod {
 		
 		//lambda expression
 		
-		Loginvalidation login=(user,pass) -> {
-			if(user.equals("admin")&&pass.equals("admin123")) {
+		Loginvalidation login=(user, pass) -> {
+			if(user.equals("admin") && pass.equals("admin123")) {
 				return true;
 			}
 			return false;
